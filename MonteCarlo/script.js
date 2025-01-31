@@ -40,7 +40,6 @@ function resetSimulation() {
     pointsInsideCircle = 0;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     document.getElementById("piEstimate").textContent = "Stima corrente di π: -";
-    document.getElementById("piFact").textContent = "";
     drawCircle();
 }
 
@@ -70,7 +69,7 @@ function stopSimulation() {
     startB.onclick = startSimulation;
 }
 
-drawCircle();
+
 
 
 function createFallingEmoji() {
@@ -90,7 +89,7 @@ setInterval(createFallingEmoji, 450);
 
 
 
-
+drawCircle();
 
 
 

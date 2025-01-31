@@ -19,13 +19,6 @@ The website provides three methods for calculating π:
 2. Choose one of the three methods.
 3. Start the calculation and observe the results.
 
-## Installation
-No installation is required. Simply open the HTML file in any modern web browser.
-
-## Future Improvements
-- Improve UI/UX with better visualization.
-- Optimize performance for faster calculations.
-- Add more approximation methods for π.
 
 ## License
 This project is open-source and licensed under the MIT License.

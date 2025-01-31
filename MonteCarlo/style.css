@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff00ff, #2e7bfe);
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+#canvasContainer {
+    margin: 20px auto;
+    width: 400px;
+    height: 400px;
+    /* border: 2px solid black; */
+    /* border-radius: 50%; */
+    /* background-color: #fff; */
+}
+
+canvas {
+    backdrop-filter: blur(5px);
+    display: block;
+    margin: 0 auto;
+}
+
+.controls {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2a5298;
+    color: white;
+}
+
+button:hover {
+    background-color: #3b73c2;
+}
+
+
+#piEstimate{
+    font-size: 1.5rem;
+    margin-top: 20px;   
+}
+
+#emoji-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+
+.emoji {
+    position: absolute;
+    font-size: 2.5rem;
+    animation: fall linear infinite;
+    z-index: -1;
+    font-weight: bold;
+}
+
+@keyframes fall {
+    from {
+        top: -5%;
+        opacity: 1;
+    }
+
+    to {
+        top: 110%;
+        opacity: 0.1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
